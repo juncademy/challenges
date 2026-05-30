@@ -1,0 +1,27 @@
+let pilihan = 2;
+let menu;
+let harga;
+
+switch (pilihan) {
+    case 1:
+        menu = "Nasi Goreng"
+        harga = 15000
+        break;
+    case 2:
+        menu = "Mie Ayam"
+        harga = 12000
+        break;
+    case 3:
+        menu = "Bakso"
+        harga = 10000
+        break;
+    case 4:
+        menu = "Es Teh"
+        harga = 5000
+        break;
+    default:
+        menu = "Menu tidak tersedia"
+        harga = null
+}
+console.log(`Anda memilih: ${menu}`);
+console.log(`Harga: ${harga}`);
